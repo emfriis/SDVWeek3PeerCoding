@@ -30,3 +30,6 @@ console.log(5 !== '5'); // Evaluates expression with comparison operator.
 console.log(5 > '10'); // Evaluates expression with comparison operator.
 console.log(5 < '10'); // Evaluates expression with comparison operator.
 console.log(10 > 'a'); // Evaluates expression with comparison operator, comparing numbers to non-numeric strings always returns false.
+console.log('a' == 'A'); // Evaluates expression with comparison operator.
+console.log('a' < 'z'); // Evaluates expression with comparison operator.
+console.log('Break' > 'Brake'); // Evaluates expression with comparison operator, comparing strings uses unicode order, and so compares strings from left to right until varying unicode values are found.
